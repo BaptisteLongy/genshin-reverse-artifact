@@ -29,17 +29,15 @@ const artifactSetList = [
 
 
 
-function ArtifactSet({onSetChangeCallback}) {
-    const [artifactSet, setArtifactSet] = React.useState('');
-
+function ArtifactSet({artifactSet, onSetChangeCallback}) {
+    
     const handleChange = (event) => {
-        setArtifactSet(event.target.value);
         onSetChangeCallback && onSetChangeCallback(event.target.value)
     };
 
     return (
-        <FormControl>
-            <InputLabel>Type</InputLabel>
+        <FormControl fullWidth={true}>
+            <InputLabel>Set</InputLabel>
             <Select
                 value={artifactSet}
                 label="Type"

@@ -1,0 +1,12 @@
+[
+    { "value": "hp-flat", "name": "Flat HP" },
+    { "value": "atk-flat", "name": "Flat ATK" },
+    { "value": "def-flat", "name": "Flat DEF" },
+    { "value": "hp-percent", "name": "HP %" },
+    { "value": "atk-percent", "name": "ATK %" },
+    { "value": "def-percent", "name": "DEF %" },
+    { "value": "em-flat", "name": "Flat EM (Elemental Mastery)" },
+    { "value": "er-percent", "name": "ER % (Energy Recharge)" },
+    { "value": "crit-rate-percent", "name": "Crit Rate %" },
+    { "value": "crit-dmg-percent", "name": "Crit Dmg %" }
+]

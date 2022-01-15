@@ -4,24 +4,11 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 
-const allPossibleSubStats = [
-    { value: "hp-flat", name: "Flat HP" },
-    { value: "atk-flat", name: "Flat ATK" },
-    { value: "def-flat", name: "Flat DEF" },
-    { value: "hp-percent", name: "HP %" },
-    { value: "atk-percent", name: "ATK %" },
-    { value: "def-percent", name: "DEF %" },
-    { value: "em-flat", name: "Flat EM (Elemental Mastery)" },
-    { value: "er-percent", name: "ER % (Energy Recharge)" },
-    { value: "crit-rate-percent", name: "Crit Rate %" },
-    { value: "crit-dmg-percent", name: "Crit Dmg %" }
-]
+const allPossibleSubStats = require('../artifactPossibleSubStats.json')
 
-function SingleSubStatSelect({lockedStats, subStatChangeCallback, disabled}) {
-    const [subStat, setSubStat] = React.useState('');
+function SingleSubStatSelect({lockedStats, subStatChangeCallback, disabled, subStatLabel, subStat}) {
 
     const handleChange = (event) => {
-        setSubStat(event.target.value);
         subStatChangeCallback && subStatChangeCallback(event.target.value)
     };
 
@@ -30,13 +17,11 @@ function SingleSubStatSelect({lockedStats, subStatChangeCallback, disabled}) {
     })
 
     return (
-        <div>
-            <p>Let's display 1 sub stats here, based on passed stats to remove</p>
-            <FormControl>
-            <InputLabel>Sub Stat</InputLabel>
+            <FormControl fullWidth={true}>
+            <InputLabel>{subStatLabel === undefined ? "Sub Stat" : subStatLabel}</InputLabel>
             <Select
                 value={subStat}
-                label="Sub Stat"
+                label={subStatLabel === undefined ? "Sub Stat" : subStatLabel}
                 onChange={handleChange}
                 disabled={disabled}
                 autoWidth={true}
@@ -46,7 +31,6 @@ function SingleSubStatSelect({lockedStats, subStatChangeCallback, disabled}) {
                 })}
             </Select>
         </FormControl>
-        </div>
     );
 }
 

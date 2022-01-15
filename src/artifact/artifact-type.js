@@ -4,16 +4,14 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 
-function ArtifactType({artifactTypeChangeCallback}) {
-    const [artifactType, setArtifactType] = React.useState('');
+function ArtifactType({artifactType, artifactTypeChangeCallback}) {
 
     const handleChange = (event) => {
-        setArtifactType(event.target.value);
         artifactTypeChangeCallback(event.target.value)
     };
 
     return (
-        <FormControl>
+        <FormControl fullWidth={true}>
             <InputLabel>Type</InputLabel>
             <Select
                 value={artifactType}

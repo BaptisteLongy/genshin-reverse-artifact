@@ -1,8 +1,38 @@
 import { DataGrid } from '@mui/x-data-grid';
 
-const pyro = require('./characters/pyro/index')
+const allPossibleSubStats = require('../artifact/artifactPossibleSubStats.json')
 
+const pyro = require('./characters/pyro/index')
 const characterList = [...pyro]
+
+const checkArtifactStatsAndAddToList = (artifact, character, role, list) => {
+    let firstSubStatMatches = role.subStats.find(element => element.id === artifact.subStat1) !== undefined
+    let secondSubStatMatches = role.subStats.find(element => element.id === artifact.subStat2) !== undefined
+    let thirdSubStatMatches = role.subStats.find(element => element.id === artifact.subStat3) !== undefined
+    let fourthSubStatMatches = role.subStats.find(element => element.id === artifact.subStat4) !== undefined
+    let atLeastOneSubStatMatches = firstSubStatMatches || secondSubStatMatches || thirdSubStatMatches || fourthSubStatMatches
+    if (atLeastOneSubStatMatches) {
+        list.push({
+            id: `${character.name}-${role.name}`,
+            name: character.name,
+            role: role.name,
+            best: role.best,
+            subStat1: firstSubStatMatches,
+            subStat2: secondSubStatMatches,
+            subStat3: thirdSubStatMatches,
+            subStat4: fourthSubStatMatches
+        })
+    }
+}
+
+const formatStatCheck = (params) => {
+    return params.value ? <span style={{ color: 'green', fontSize: '20px' }}>✔</span> : <span style={{ color: 'red', fontSize: '24px' }}>×</span>
+}
+
+const getSubStatColumnName = (subStat) => {
+    let foundSubStat = allPossibleSubStats.find(element => subStat === element.value)
+    return (foundSubStat === undefined ? "" : foundSubStat.name)
+}
 
 function Receivers({ artifact }) {
     let filteredSetCompatibleCharList = []
@@ -13,103 +43,96 @@ function Receivers({ artifact }) {
                 case "sands":
                     if (role.sands.find(element => element.id === artifact.mainStat)) {
                         if (role.sets.find(element => element.id === artifact.set)) {
-                            // Let's check substats for filteredSetCompatibleCharList
-                            let firstSubStatMatches = role.subStats.find(element => element.id === artifact.subStat1) !== undefined
-                            let secondSubStatMatches = role.subStats.find(element => element.id === artifact.subStat2) !== undefined
-                            let thirdSubStatMatches = role.subStats.find(element => element.id === artifact.subStat3) !== undefined
-                            let fourthSubStatMatches = role.subStats.find(element => element.id === artifact.subStat4) !== undefined
-                            let atLeastOneSubStatMatches = firstSubStatMatches || secondSubStatMatches || thirdSubStatMatches || fourthSubStatMatches
-                            if (atLeastOneSubStatMatches) {
-                                filteredSetCompatibleCharList.push({
-                                    id: `${character.name}-${role.name}`,
-                                    name: character.name,
-                                    role: role.name,
-                                    best: role.best,
-                                    subStat1: firstSubStatMatches,
-                                    subStat2: secondSubStatMatches,
-                                    subStat3: thirdSubStatMatches,
-                                    subStat4: fourthSubStatMatches
-                                })
-                            }
+                            checkArtifactStatsAndAddToList(artifact, character, role, filteredSetCompatibleCharList)
                         } else {
-                            // Let's check substats for filteredSetNotCompatibleCharList
-                            let firstSubStatMatches = role.subStats.find(element => element.id === artifact.subStat1) !== undefined
-                            let secondSubStatMatches = role.subStats.find(element => element.id === artifact.subStat2) !== undefined
-                            let thirdSubStatMatches = role.subStats.find(element => element.id === artifact.subStat3) !== undefined
-                            let fourthSubStatMatches = role.subStats.find(element => element.id === artifact.subStat4) !== undefined
-                            let atLeastOneSubStatMatches = firstSubStatMatches || secondSubStatMatches || thirdSubStatMatches || fourthSubStatMatches
-                            if (atLeastOneSubStatMatches) {
-                                filteredSetNotCompatibleCharList.push({
-                                    id: `${character.name}-${role.name}`,
-                                    name: character.name,
-                                    role: role.name,
-                                    best: role.best,
-                                    subStat1: firstSubStatMatches,
-                                    subStat2: secondSubStatMatches,
-                                    subStat3: thirdSubStatMatches,
-                                    subStat4: fourthSubStatMatches
-                                })
-                            }
+                            checkArtifactStatsAndAddToList(artifact, character, role, filteredSetNotCompatibleCharList)
                         }
                     }
                     break
                 case "goblet":
                     if (role.goblet.find(element => element.id === artifact.mainStat)) {
-                        // Let's check the artifact against the role
+                        if (role.sets.find(element => element.id === artifact.set)) {
+                            checkArtifactStatsAndAddToList(artifact, character, role, filteredSetCompatibleCharList)
+                        } else {
+                            checkArtifactStatsAndAddToList(artifact, character, role, filteredSetNotCompatibleCharList)
+                        }
                     }
                     break
                 case "circlet":
                     if (role.circlet.find(element => element.id === artifact.mainStat)) {
-                        // Let's check the artifact against the role
+                        if (role.sets.find(element => element.id === artifact.set)) {
+                            checkArtifactStatsAndAddToList(artifact, character, role, filteredSetCompatibleCharList)
+                        } else {
+                            checkArtifactStatsAndAddToList(artifact, character, role, filteredSetNotCompatibleCharList)
+                        }
                     }
                     break
                 default:
-                // Let's check the artifact against the role
+                    if (role.sets.find(element => element.id === artifact.set)) {
+                        checkArtifactStatsAndAddToList(artifact, character, role, filteredSetCompatibleCharList)
+                    } else {
+                        checkArtifactStatsAndAddToList(artifact, character, role, filteredSetNotCompatibleCharList)
+                    }
             }
         })
     })
 
     const columns = [
-        { field: 'name', headerName: 'Character' },
-        { field: 'role', headerName: 'Build' },
-        { field: 'best', headerName: 'Best role' },
-        { field: 'subStat1', headerName: artifact.subStat1 },
-        { field: 'subStat2', headerName: artifact.subStat2 },
-        { field: 'subStat3', headerName: artifact.subStat3 },
-        { field: 'subStat4', headerName: artifact.subStat4 },
+        { field: 'name', headerName: 'Character', width: 130 },
+        { field: 'role', headerName: 'Build', width: 130 },
+        {
+            field: 'best',
+            headerName: 'Best role',
+            width: 130,
+            renderCell: formatStatCheck
+        },
+        {
+            field: 'subStat1',
+            headerName: getSubStatColumnName(artifact.subStat1),
+            width: 130,
+            renderCell: formatStatCheck
+        },
+        {
+            field: 'subStat2',
+            headerName: getSubStatColumnName(artifact.subStat2),
+            width: 130,
+            renderCell: formatStatCheck
+        },
+        {
+            field: 'subStat3',
+            headerName: getSubStatColumnName(artifact.subStat3),
+            width: 130,
+            renderCell: formatStatCheck
+        },
+        {
+            field: 'subStat4',
+            headerName: getSubStatColumnName(artifact.subStat4),
+            width: 130,
+            renderCell: formatStatCheck
+        },
     ];
-
-    debugger
-
-
 
     return (
         <div>
-            <h2>Character section</h2>
-            <p>Herer the user will be presented with the list of characters and ranking the artifact can be used with</p>
-            <p>We will display the list of characters that can use that artifact, knowing that</p>
-            <p>Set: {artifact.set}</p>
-            <p>Type: {artifact.type}</p>
-            <p>Main stat: {artifact.mainStat}</p>
-            <p>Sub stat 1: {artifact.subStat1}</p>
-            <p>Sub stat 2: {artifact.subStat2}</p>
-            <p>Sub stat 3: {artifact.subStat3}</p>
-            <p>Sub stat 4: {artifact.subStat4}</p>
-
-<h3>Those characters can use the set bonus</h3>
-            <div style={{ height: 400, width: '100%' }}>
-                <DataGrid
-                    rows={filteredSetCompatibleCharList}
-                    columns={columns}
-                />
-            </div>
-            <h3>The set bonus is useless, just check stats</h3>
-            <div style={{ height: 400, width: '100%' }}>
-                <DataGrid
-                    rows={filteredSetNotCompatibleCharList}
-                    columns={columns}
-                />
-            </div>
+            <h2>Who can use it?</h2>
+            <h3>Those characters/roles can use the set bonus</h3>
+            <DataGrid
+                rows={filteredSetCompatibleCharList}
+                columns={columns}
+                autoHeight
+                disableColumnMenu
+                disableSelectionOnClick
+                hideFooter
+            />
+            <h3>The set bonus is useless for those characters/roles, can be used as 5th artifact</h3>
+            <DataGrid
+                rows={filteredSetNotCompatibleCharList}
+                columns={columns}
+                autoHeight
+                disableColumnMenu
+                disableSelectionOnClick
+                hideFooter
+            />
         </div>
     );
 }

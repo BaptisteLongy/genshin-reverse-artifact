@@ -4,7 +4,7 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 
-function MainStatSelect({ potentialStats, artifactMainStatChangeCallback }) {
+function MainStatSelect({ potentialStats, artifactMainStatChangeCallback, disabled }) {
     const [artifactMainStat, setArtifactMainStat] = React.useState('');
 
     const handleChange = (event) => {
@@ -13,7 +13,7 @@ function MainStatSelect({ potentialStats, artifactMainStatChangeCallback }) {
     };
 
     return (
-        <FormControl>
+        <FormControl fullWidth={true} disabled={disabled}>
             <InputLabel>Main Stat</InputLabel>
             <Select
                 value={artifactMainStat}
