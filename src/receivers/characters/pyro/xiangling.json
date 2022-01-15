@@ -1,0 +1,153 @@
+{
+    "name": "Xiangling",
+    "roles": [
+        {
+            "name": "Off-Field DPS",
+            "best": true,
+            "sets": [
+                {
+                    "id": "emblem-of-severed-fate"
+                },
+                {
+                    "id": "crimson-witch-of-flames"
+                },
+                {
+                    "id": "noblesse-oblige"
+                },
+                {
+                    "id": "resolution-of-sojourner"
+                },
+                {
+                    "id": "brave-heart"
+                },
+                {
+                    "id": "gladiator-finale"
+                },
+                {
+                    "id": "shimenawa-reminiscence"
+                },
+                {
+                    "id": "wanderer-troupe"
+                },
+                {
+                    "id": "the-exile"
+                },
+                {
+                    "id": "scholar"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "em-flat"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "pyro-dmg-percent"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                },
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "em-flat"
+                },
+                {
+                    "id": "atk-flat"
+                }
+            ]
+        },
+        {
+            "name": "Physical DPS",
+            "best": false,
+            "sets": [
+                {
+                    "id": "pale-flame"
+                },
+                {
+                    "id": "bloodstained-chivalry"
+                },
+                {
+                    "id": "gladiator-finale"
+                },
+                {
+                    "id": "resolution-of-sojourner"
+                },
+                {
+                    "id": "brave-heart"
+                },
+                {
+                    "id": "shimenawa-reminiscence"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "em-flat"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "pyro-dmg-percent"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "crit-dmg-percent"
+                },
+                {
+                    "id": "crit-rate-percent"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                },
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "em-flat"
+                },
+                {
+                    "id": "atk-flat"
+                }
+            ]
+        }
+    ]
+}
