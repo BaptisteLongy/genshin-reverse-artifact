@@ -4,11 +4,12 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 
-function MainStatSelect({ potentialStats }) {
+function MainStatSelect({ potentialStats, artifactMainStatChangeCallback }) {
     const [artifactMainStat, setArtifactMainStat] = React.useState('');
 
     const handleChange = (event) => {
         setArtifactMainStat(event.target.value);
+        artifactMainStatChangeCallback(event.target.value)
     };
 
     return (

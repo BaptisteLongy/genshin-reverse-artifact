@@ -1,7 +1,7 @@
 import * as React from 'react';
 import MainStatSelect from './main-stat-select'
 
-function ArtifactMainStat({ artifactType }) {
+function ArtifactMainStat({ artifactType, artifactMainStatChangeCallback}) {
 
     const renderSpecificMainStat = (artifactType) => {
         let potentialStats = []
@@ -45,7 +45,7 @@ function ArtifactMainStat({ artifactType }) {
                 break;
           }
 
-        return <MainStatSelect potentialStats={potentialStats} key={artifactType}/>
+        return <MainStatSelect potentialStats={potentialStats} key={artifactType} artifactMainStatChangeCallback={artifactMainStatChangeCallback}/>
     }
 
     return (
