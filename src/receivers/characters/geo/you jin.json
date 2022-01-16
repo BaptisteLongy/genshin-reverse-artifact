@@ -1,0 +1,55 @@
+{
+    "name": "Yun Jin",
+    "roles": [
+        {
+            "name": "Support",
+            "best": true,
+            "sets": [
+                {
+                    "id": "husk-of-opulent-dreams"
+                },
+                {
+                    "id": "noblesse-oblige"
+                },
+                {
+                    "id": "emblem-of-severed-fate"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "def-percent"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "def-percent"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "def-percent"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "def-percent"
+                },
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "def-flat"
+                }
+            ]
+        }
+    ]
+}
