@@ -1,5 +1,5 @@
-// const fischl = require('./fischl.json')
+const xingqiu = require('./xingqiu.json')
 
 module.exports = [
-    
+    xingqiu
 ];

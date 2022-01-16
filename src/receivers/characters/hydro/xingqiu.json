@@ -1,0 +1,85 @@
+{
+    "name": "Xingqiu",
+    "roles": [
+        {
+            "name": "Off-Field DPS",
+            "best": true,
+            "sets": [
+                {
+                    "id": "resolution-of-sojourner"
+                },
+                {
+                    "id": "brave-heart"
+                },
+                {
+                    "id": "gladiator-finale"
+                },
+                {
+                    "id": "shimenawa-reminiscence"
+                },
+                {
+                    "id": "emblem-of-severed-fate"
+                },
+                {
+                    "id": "noblesse-oblige"
+                },
+                {
+                    "id": "heart-of-depth"
+                },
+                {
+                    "id": "thundersoother"
+                },
+                {
+                    "id": "blizzard-strayer"
+                },
+                {
+                    "id": "the-exile"
+                },
+                {
+                    "id": "scholar"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "er-percent"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "hydro-dmg-percent"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                },
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "em-flat"
+                },
+                {
+                    "id": "atk-flat"
+                }
+            ]
+        }
+    ]
+}
