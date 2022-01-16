@@ -1,0 +1,58 @@
+{
+    "name": "Thoma",
+    "roles": [
+        {
+            "name": "Support",
+            "best": true,
+            "sets": [
+                {
+                    "id": "noblesse-oblige"
+                },
+                {
+                    "id": "tenacity-of-the-millelith"
+                },
+                {
+                    "id": "emblem-of-severed-fate"
+                },
+                {
+                    "id": "the-exile"
+                },
+                {
+                    "id": "scholar"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "hp-percent"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "hp-percent"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "hp-percent"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "hp-percent"
+                },
+                {
+                    "id": "hp-flat"
+                }
+            ]
+        }
+    ]
+}
