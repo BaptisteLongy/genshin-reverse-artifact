@@ -4,6 +4,7 @@ import Artifact from './artifact/artifact';
 import Receivers from './receivers/receivers'
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
+import Footer from './footer'
 
 function App() {
   const [artifact, setArtifact] = React.useState({});
@@ -29,8 +30,9 @@ function App() {
         </Grid>
         <Artifact updateArtifactCallback={updateStateInfos} />
         <Receivers artifact={artifact} minNumberOfStats={minNumberOfStat} />
-        <h1>One day I will add a footer</h1>
-        <p>It will have my github link and a link to the data I'm using + the date it was last updated</p>
+        <div  style={{ marginTop: 32 }}>
+        <Footer />
+        </div>
       </Grid>
     </Container>
   );
