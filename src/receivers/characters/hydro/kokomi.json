@@ -1,0 +1,117 @@
+{
+    "name": "Kokomi",
+    "roles": [
+        {
+            "name": "Support",
+            "best": true,
+            "sets": [
+                {
+                    "id": "tenacity-of-the-millelith"
+                },
+                {
+                    "id": "ocean-hued-clam"
+                },
+                {
+                    "id": "maiden-beloved"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "hp-percent"
+                },
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "atk-percent"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "hydro-dmg-percent"
+                },
+                {
+                    "id": "hp-percent"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "healing-percent"
+                },
+                {
+                    "id": "atk-percent"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "atk-flat"
+                },
+                {
+                    "id": "hp-percent"
+                },
+                {
+                    "id": "hp-flat"
+                }
+            ]
+        },
+        {
+            "name": "DPS",
+            "best": false,
+            "sets": [
+                {
+                    "id": "tenacity-of-the-millelith"
+                },
+                {
+                    "id": "ocean-hued-clam"
+                },
+                {
+                    "id": "maiden-beloved"
+                },
+                {
+                    "id": "heart-of-depth"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "hp-percent"
+                },
+                {
+                    "id": "er-percent"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "hydro-dmg-percent"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "healing-percent"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "atk-flat"
+                },
+                {
+                    "id": "hp-percent"
+                },
+                {
+                    "id": "hp-flat"
+                }
+            ]
+        }
+    ]
+}
