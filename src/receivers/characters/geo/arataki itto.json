@@ -1,0 +1,64 @@
+{
+    "name": "Arataki Itto",
+    "roles": [
+        {
+            "name": "DPS",
+            "best": true,
+            "sets": [
+                {
+                    "id": "husk-of-opulent-dreams"
+                },
+                {
+                    "id": "archaic-petra"
+                },
+                {
+                    "id": "retracing-bolide"
+                },
+                {
+                    "id": "emblem-of-severed-fate"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "def-percent"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "geo-dmg-percent"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                },
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "atk-flat"
+                },
+                {
+                    "id": "def-percent"
+                },
+                {
+                    "id": "def-flat"
+                }
+            ]
+        }
+    ]
+}
