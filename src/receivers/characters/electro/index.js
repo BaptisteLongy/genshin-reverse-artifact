@@ -4,6 +4,7 @@ const lisa = require('./lisa.json')
 const razor = require('./razor.json')
 const kujou_sara = require('./kujou sara.json')
 const electro_traveler = require('./electro traveler.json')
+const keqing = require('./keqing.json')
 
 module.exports = [
     fischl,
@@ -11,5 +12,6 @@ module.exports = [
     lisa,
     razor,
     kujou_sara,
-    electro_traveler
+    electro_traveler,
+    keqing
 ];
