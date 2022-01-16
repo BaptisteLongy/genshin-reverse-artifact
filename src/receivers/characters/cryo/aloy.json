@@ -1,0 +1,76 @@
+{
+    "name": "Aloy",
+    "roles": [
+        {
+            "name": "Burst Support",
+            "best": true,
+            "sets": [
+                {
+                    "id": "gladiator-finale"
+                },
+                {
+                    "id": "resolution-of-sojourner"
+                },
+                {
+                    "id": "brave-heart"
+                },
+                {
+                    "id": "shimenawa-reminiscence"
+                },
+                {
+                    "id": "blizzard-strayer"
+                },
+                {
+                    "id": "noblesse-oblige"
+                },
+                {
+                    "id": "emblem-of-severed-fate"
+                },
+                {
+                    "id": "wanderer-troupe"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "em-flat"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "cryo-dmg-percent"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "atk-flat"
+                },
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                },
+                {
+                    "id": "em-flat"
+                }
+            ]
+        }
+    ]
+}

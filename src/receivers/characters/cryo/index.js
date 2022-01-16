@@ -6,6 +6,7 @@ const qiqi = require('./qiqi.json')
 const ganyu = require('./ganyu.json')
 const eula = require('./eula.json')
 const kamisato_ayaka = require('./kamisato ayaka.json')
+const aloy = require('./aloy.json')
 
 module.exports = [
     diona,
@@ -15,5 +16,6 @@ module.exports = [
     qiqi,
     ganyu,
     eula,
-    kamisato_ayaka
+    kamisato_ayaka,
+    aloy
 ];
