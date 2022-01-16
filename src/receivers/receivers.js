@@ -4,7 +4,8 @@ const allPossibleSubStats = require('../artifact/artifactPossibleSubStats.json')
 
 const pyro = require('./characters/pyro/index')
 const electro = require('./characters/electro/index')
-const characterList = [...pyro, ...electro]
+const hydro = require('./characters/hydro/index')
+const characterList = [...pyro, ...electro, ...hydro]
 
 const checkArtifactStatsAndAddToList = (artifact, character, role, list) => {
     let firstSubStatMatches = role.subStats.find(element => element.id === artifact.subStat1) !== undefined
