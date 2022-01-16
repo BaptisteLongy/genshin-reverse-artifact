@@ -5,6 +5,10 @@ import ArtifactMainStat from './artifact-main-stat/artifact-main-stat'
 import ArtifactSubStats from './artifact-sub-stats/artifact-sub-stats'
 import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
+import InputLabel from '@mui/material/InputLabel';
+import MenuItem from '@mui/material/MenuItem';
+import FormControl from '@mui/material/FormControl';
+import Select from '@mui/material/Select';
 
 function Artifact({ updateArtifactCallback }) {
     const [artifactSet, setArtifactSet] = React.useState('');
@@ -14,6 +18,7 @@ function Artifact({ updateArtifactCallback }) {
     const [artifactSecondSubStat, setArtifactSecondSubStat] = React.useState('');
     const [artifactThirdSubStat, setArtifactThirdSubStat] = React.useState('');
     const [artifactFourthSubStat, setArtifactFourthSubStat] = React.useState('');
+    const [minNumberOfStat, setMinNumberOfStat] = React.useState(3);
 
 
     const updateArtifact = () => {
@@ -25,7 +30,8 @@ function Artifact({ updateArtifactCallback }) {
             subStat2: artifactSecondSubStat,
             subStat3: artifactThirdSubStat,
             subStat4: artifactFourthSubStat
-        })
+        },
+        minNumberOfStat)
     }
 
     const resetArtifact = () => {
@@ -44,7 +50,8 @@ function Artifact({ updateArtifactCallback }) {
             subStat2: "",
             subStat3: "",
             subStat4: ""
-        })
+        },
+        0)
     }
 
     const changeArtifactType = (newValue) => {
@@ -76,6 +83,10 @@ function Artifact({ updateArtifactCallback }) {
         setArtifactFourthSubStat(newValue)
     }
 
+    const changeThreshold = (event) => {
+        setMinNumberOfStat(event.target.value)
+    }
+
     return (
         <div>
             <h2>Describe your Artifact</h2>
@@ -104,11 +115,26 @@ function Artifact({ updateArtifactCallback }) {
                 />
             </Grid>
             <Grid item container direction="row" spacing={2} justifyContent="center" alignItems="center" style={{ paddingTop: 20 }}>
-                <Grid item>
-                <Button variant="contained" onClick={updateArtifact}>Calculate</Button>
+                <Grid item xs={2}>
+                    <FormControl fullWidth={true}>
+                        <InputLabel>Min # of Stats</InputLabel>
+                        <Select
+                            value={minNumberOfStat}
+                            label="Min # of Stats"
+                            onChange={changeThreshold}
+                        >
+                            <MenuItem value={1}>1</MenuItem>
+                            <MenuItem value={2}>2</MenuItem>
+                            <MenuItem value={3}>3</MenuItem>
+                            <MenuItem value={4}>4</MenuItem>
+                        </Select>
+                    </FormControl>
                 </Grid>
                 <Grid item>
-                <Button variant="contained" onClick={resetArtifact}>Reset</Button>
+                    <Button variant="contained" onClick={updateArtifact}>Calculate</Button>
+                </Grid>
+                <Grid item>
+                    <Button variant="contained" onClick={resetArtifact}>Reset</Button>
                 </Grid>
             </Grid>
         </div>

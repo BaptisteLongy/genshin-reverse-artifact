@@ -10,13 +10,13 @@ const anemo = require('./characters/anemo/index')
 const geo = require('./characters/geo/index')
 const characterList = [...pyro, ...electro, ...hydro, ...cryo, ...anemo, ...geo]
 
-const checkArtifactStatsAndAddToList = (artifact, character, role, list) => {
-    let firstSubStatMatches = role.subStats.find(element => element.id === artifact.subStat1) !== undefined
-    let secondSubStatMatches = role.subStats.find(element => element.id === artifact.subStat2) !== undefined
-    let thirdSubStatMatches = role.subStats.find(element => element.id === artifact.subStat3) !== undefined
-    let fourthSubStatMatches = role.subStats.find(element => element.id === artifact.subStat4) !== undefined
-    let atLeastOneSubStatMatches = firstSubStatMatches || secondSubStatMatches || thirdSubStatMatches || fourthSubStatMatches
-    if (atLeastOneSubStatMatches) {
+const checkArtifactStatsAndAddToList = (artifact, character, role, list, threshold) => {
+    let firstSubStatMatches = role.subStats.find(element => element.id === artifact.subStat1) !== undefined ? 1 : 0
+    let secondSubStatMatches = role.subStats.find(element => element.id === artifact.subStat2) !== undefined ? 1 : 0
+    let thirdSubStatMatches = role.subStats.find(element => element.id === artifact.subStat3) !== undefined ? 1 : 0
+    let fourthSubStatMatches = role.subStats.find(element => element.id === artifact.subStat4) !== undefined ? 1 : 0
+    // let atLeastOneSubStatMatches = firstSubStatMatches || secondSubStatMatches || thirdSubStatMatches || fourthSubStatMatches
+    if (firstSubStatMatches + secondSubStatMatches + thirdSubStatMatches + fourthSubStatMatches >= threshold) {
         list.push({
             id: `${character.name}-${role.name}`,
             name: character.name,
@@ -39,7 +39,7 @@ const getSubStatColumnName = (subStat) => {
     return (foundSubStat === undefined ? "" : foundSubStat.name)
 }
 
-function Receivers({ artifact }) {
+function Receivers({ artifact, minNumberOfStats }) {
     let filteredSetCompatibleCharList = []
     let filteredSetNotCompatibleCharList = []
     characterList.forEach(character => {
@@ -48,18 +48,18 @@ function Receivers({ artifact }) {
                 case "sands":
                     if (role.sands.find(element => element.id === artifact.mainStat)) {
                         if (role.sets.find(element => element.id === artifact.set)) {
-                            checkArtifactStatsAndAddToList(artifact, character, role, filteredSetCompatibleCharList)
+                            checkArtifactStatsAndAddToList(artifact, character, role, filteredSetCompatibleCharList, minNumberOfStats)
                         } else {
-                            checkArtifactStatsAndAddToList(artifact, character, role, filteredSetNotCompatibleCharList)
+                            checkArtifactStatsAndAddToList(artifact, character, role, filteredSetNotCompatibleCharList, minNumberOfStats)
                         }
                     }
                     break
                 case "goblet":
                     if (role.goblet.find(element => element.id === artifact.mainStat)) {
                         if (role.sets.find(element => element.id === artifact.set)) {
-                            checkArtifactStatsAndAddToList(artifact, character, role, filteredSetCompatibleCharList)
+                            checkArtifactStatsAndAddToList(artifact, character, role, filteredSetCompatibleCharList, minNumberOfStats)
                         } else {
-                            checkArtifactStatsAndAddToList(artifact, character, role, filteredSetNotCompatibleCharList)
+                            checkArtifactStatsAndAddToList(artifact, character, role, filteredSetNotCompatibleCharList, minNumberOfStats)
                         }
                     }
                     break
