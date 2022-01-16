@@ -1,0 +1,58 @@
+{
+    "name": "Shenhe",
+    "roles": [
+        {
+            "name": "Support",
+            "best": true,
+            "sets": [
+                {
+                    "id": "gladiator-finale"
+                },
+                {
+                    "id": "shimenawa-reminiscence"
+                },
+                {
+                    "id": "noblesse-oblige"
+                },
+                {
+                    "id": "emblem-of-severed-fate"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "er-percent"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "atk-percent"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "atk-percent"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "atk-flat"
+                },
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                }
+            ]
+        }
+    ]
+}

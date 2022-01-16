@@ -7,6 +7,7 @@ const ganyu = require('./ganyu.json')
 const eula = require('./eula.json')
 const kamisato_ayaka = require('./kamisato ayaka.json')
 const aloy = require('./aloy.json')
+const shenhe = require('./shenhe.json')
 
 module.exports = [
     diona,
@@ -17,5 +18,6 @@ module.exports = [
     ganyu,
     eula,
     kamisato_ayaka,
-    aloy
+    aloy,
+    shenhe
 ];
