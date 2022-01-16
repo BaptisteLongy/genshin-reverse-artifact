@@ -1,0 +1,126 @@
+{
+    "name": "Ningguang",
+    "roles": [
+        {
+            "name": "DPS",
+            "best": true,
+            "sets": [
+                {
+                    "id": "noblesse-oblige"
+                },
+                {
+                    "id": "archaic-petra"
+                },
+                {
+                    "id": "resolution-of-sojourner"
+                },
+                {
+                    "id": "brave-heart"
+                },
+                {
+                    "id": "gladiator-finale"
+                },
+                {
+                    "id": "shimenawa-reminiscence"
+                },
+                {
+                    "id": "retracing-bolide"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "atk-percent"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "geo-dmg-percent"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                },
+                {
+                    "id": "atk-flat"
+                }
+            ]
+        },
+        {
+            "name": "Burst Support",
+            "best": false,
+            "sets": [
+                {
+                    "id": "noblesse-oblige"
+                },
+                {
+                    "id": "archaic-petra"
+                },
+                {
+                    "id": "resolution-of-sojourner"
+                },
+                {
+                    "id": "brave-heart"
+                },
+                {
+                    "id": "gladiator-finale"
+                },
+                {
+                    "id": "shimenawa-reminiscence"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "atk-percent"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "geo-dmg-percent"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                },
+                {
+                    "id": "atk-flat"
+                }
+            ]
+        }
+    ]
+}

@@ -7,7 +7,8 @@ const electro = require('./characters/electro/index')
 const hydro = require('./characters/hydro/index')
 const cryo = require('./characters/cryo/index')
 const anemo = require('./characters/anemo/index')
-const characterList = [...pyro, ...electro, ...hydro, ...cryo, ...anemo]
+const geo = require('./characters/geo/index')
+const characterList = [...pyro, ...electro, ...hydro, ...cryo, ...anemo, ...geo]
 
 const checkArtifactStatsAndAddToList = (artifact, character, role, list) => {
     let firstSubStatMatches = role.subStats.find(element => element.id === artifact.subStat1) !== undefined
