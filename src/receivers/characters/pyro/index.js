@@ -4,6 +4,7 @@ const bennett = require('./bennett.json')
 const xinyan = require('./xinyan.json')
 const yanfei = require('./yanfei.json')
 const thoma = require('./thoma.json')
+const diluc = require('./diluc.json')
 
 module.exports = [
     amber,
@@ -11,5 +12,6 @@ module.exports = [
     bennett,
     xinyan,
     yanfei,
-    thoma
+    thoma,
+    diluc
 ];
