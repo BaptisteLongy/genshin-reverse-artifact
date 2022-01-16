@@ -3,7 +3,9 @@ const noelle = require('./noelle.json')
 const gorou = require('./gorou.json')
 const you_jin = require('./you jin.json')
 const geo_traveler = require('./geo traveler.json')
-const zhongli = require('./zhongli.json'
+const zhongli = require('./zhongli.json')
+const albedo = require('./albedo.json')
+
 
 module.exports = [
     ningguang,
@@ -11,5 +13,6 @@ module.exports = [
     gorou,
     you_jin,
     geo_traveler,
-    zhongli
+    zhongli,
+    albedo
 ];
