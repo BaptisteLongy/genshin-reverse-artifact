@@ -1,0 +1,79 @@
+{
+    "name": "Chongyun",
+    "roles": [
+        {
+            "name": "Burst Support",
+            "best": true,
+            "sets": [
+                {
+                    "id": "emblem-of-severed-fate"
+                },
+                {
+                    "id": "noblesse-oblige"
+                },
+                {
+                    "id": "blizzard-strayer"
+                },
+                {
+                    "id": "wanderer-troupe"
+                },
+                {
+                    "id": "resolution-of-sojourner"
+                },
+                {
+                    "id": "brave-heart"
+                },
+                {
+                    "id": "gladiator-finale"
+                },
+                {
+                    "id": "shimenawa-reminiscence"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "em-flat"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "cryo-dmg-percent"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-rate-percent"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                },
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "em-flat"
+                },
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "atk-flat"
+                }
+            ]
+        }
+    ]
+}
