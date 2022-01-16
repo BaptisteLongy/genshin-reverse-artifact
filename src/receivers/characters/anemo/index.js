@@ -4,6 +4,7 @@ const anemo_traveler = require('./anemo traveler.json')
 const jean = require('./jean.json')
 const venti = require('./venti.json')
 const xiao = require('./xiao.json')
+const kaedehara_kazuha = require('./kaedehara kazuha.json')
 
 module.exports = [
     sucrose,
@@ -11,5 +12,6 @@ module.exports = [
     anemo_traveler,
     jean,
     venti,
-    xiao
+    xiao,
+    kaedehara_kazuha
 ];

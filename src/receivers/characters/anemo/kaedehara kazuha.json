@@ -1,0 +1,55 @@
+{
+    "name": "Kaedehara Kazuha",
+    "roles": [
+        {
+            "name": "EM Build",
+            "best": true,
+            "sets": [
+                {
+                    "id": "viridescent-venerer"
+                },
+                {
+                    "id": "instructor"
+                },
+                {
+                    "id": "thundering-fury"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "em-flat"
+                },
+                {
+                    "id": "er-percent"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "em-flat"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "em-flat"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "em-flat"
+                },
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                }
+            ]
+        }
+    ]
+}
