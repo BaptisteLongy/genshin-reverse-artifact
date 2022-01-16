@@ -1,0 +1,64 @@
+{
+    "name": "Diona",
+    "roles": [
+        {
+            "name": "Support",
+            "best": true,
+            "sets": [
+                {
+                    "id": "emblem-of-severed-fate"
+                },
+                {
+                    "id": "noblesse-oblige"
+                },
+                {
+                    "id": "the-exile"
+                },
+                {
+                    "id": "scholar"
+                },
+                {
+                    "id": "tenacity-of-the-millelith"
+                },
+                {
+                    "id": "maiden-beloved"
+                },
+                {
+                    "id": "instructor"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "hp-percent"
+                },
+                {
+                    "id": "er-percent"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "hp-percent"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "hp-percent"
+                },
+                {
+                    "id": "healing-percent"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "hp-percent"
+                },
+                {
+                    "id": "hp-flat"
+                }
+            ]
+        }
+    ]
+}
