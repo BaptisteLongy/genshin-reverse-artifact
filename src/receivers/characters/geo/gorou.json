@@ -1,0 +1,61 @@
+{
+    "name": "Gorou",
+    "roles": [
+        {
+            "name": "Support",
+            "best": true,
+            "sets": [
+                {
+                    "id": "the-exile"
+                },
+                {
+                    "id": "noblesse-oblige"
+                },
+                {
+                    "id": "emblem-of-severed-fate"
+                },
+                {
+                    "id": "scholar"
+                },
+                {
+                    "id": "emblem-of-severed-fate"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "er-percent"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "geo-dmg-percent"
+                },
+                {
+                    "id": "def-percent"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "def-percent"
+                },
+                {
+                    "id": "healing-percent"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "def-percent"
+                },
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "er-percent"
+                }
+            ]
+        }
+    ]
+}
