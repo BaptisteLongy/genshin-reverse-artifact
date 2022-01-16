@@ -1,0 +1,191 @@
+{
+    "name": "Ganyu",
+    "roles": [
+        {
+            "name": "Melt DPS",
+            "best": true,
+            "sets": [
+                {
+                    "id": "gladiator-finale"
+                },
+                {
+                    "id": "wanderer-troupe"
+                },
+                {
+                    "id": "blizzard-strayer"
+                },
+                {
+                    "id": "resolution-of-sojourner"
+                },
+                {
+                    "id": "brave-heart"
+                },
+                {
+                    "id": "shimenawa-reminiscence"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "em-flat"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "cryo-dmg-percent"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "atk-flat"
+                },
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                },
+                {
+                    "id": "em-flat"
+                }
+            ]
+        },
+        {
+            "name": "Freeze DPS",
+            "best": true,
+            "sets": [
+                {
+                    "id": "gladiator-finale"
+                },
+                {
+                    "id": "blizzard-strayer"
+                },
+                {
+                    "id": "resolution-of-sojourner"
+                },
+                {
+                    "id": "brave-heart"
+                },
+                {
+                    "id": "shimenawa-reminiscence"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "atk-percent"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "cryo-dmg-percent"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "crit-dmg-percent"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "atk-flat"
+                },
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                }
+            ]
+        },
+        {
+            "name": "Off-Field DPS",
+            "best": false,
+            "sets": [
+                {
+                    "id": "gladiator-finale"
+                },
+                {
+                    "id": "blizzard-strayer"
+                },
+                {
+                    "id": "resolution-of-sojourner"
+                },
+                {
+                    "id": "brave-heart"
+                },
+                {
+                    "id": "shimenawa-reminiscence"
+                },
+                {
+                    "id": "noblesse-oblige"
+                },
+                {
+                    "id": "emblem-of-severed-fate"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "er-percent"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "cryo-dmg-percent"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "crit-dmg-percent"
+                },
+                {
+                    "id": "crit-rate-percent"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "atk-flat"
+                },
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                },
+                {
+                    "id": "em-flat"
+                }
+            ]
+        }
+    ]
+}
