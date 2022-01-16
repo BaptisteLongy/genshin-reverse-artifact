@@ -4,6 +4,7 @@ const kaeya = require('./kaeya.json')
 const rosaria = require('./rosaria.json')
 const qiqi = require('./qiqi.json')
 const ganyu = require('./ganyu.json')
+const eula = require('./eula.json')
 
 module.exports = [
     diona,
@@ -11,5 +12,6 @@ module.exports = [
     kaeya,
     rosaria,
     qiqi,
-    ganyu
+    ganyu,
+    eula
 ];
