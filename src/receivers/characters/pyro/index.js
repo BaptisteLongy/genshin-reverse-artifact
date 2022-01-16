@@ -6,6 +6,7 @@ const yanfei = require('./yanfei.json')
 const thoma = require('./thoma.json')
 const diluc = require('./diluc.json')
 const klee = require('./klee.json')
+const yoimiya = require('./yoimiya.json')
 
 module.exports = [
     amber,
@@ -15,5 +16,6 @@ module.exports = [
     yanfei,
     thoma,
     diluc,
-    klee
+    klee,
+    yoimiya
 ];

@@ -1,0 +1,67 @@
+{
+    "name": "Yoimiya",
+    "roles": [
+        {
+            "name": "DPS",
+            "best": true,
+            "sets": [
+                {
+                    "id": "crimson-witch-of-flames"
+                },
+                {
+                    "id": "resolution-of-sojourner"
+                },
+                {
+                    "id": "brave-heart"
+                },
+                {
+                    "id": "gladiator-finale"
+                },
+                {
+                    "id": "shimenawa-reminiscence"
+                },
+                {
+                    "id": "lavawalker"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "atk-percent"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "pyro-dmg-percent"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                },
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "em-flat"
+                },
+                {
+                    "id": "atk-flat"
+                }
+            ]
+        }
+    ]
+}
