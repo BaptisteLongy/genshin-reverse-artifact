@@ -3,7 +3,8 @@ import { DataGrid } from '@mui/x-data-grid';
 const allPossibleSubStats = require('../artifact/artifactPossibleSubStats.json')
 
 const pyro = require('./characters/pyro/index')
-const characterList = [...pyro]
+const electro = require('./characters/electro/index')
+const characterList = [...pyro, ...electro]
 
 const checkArtifactStatsAndAddToList = (artifact, character, role, list) => {
     let firstSubStatMatches = role.subStats.find(element => element.id === artifact.subStat1) !== undefined
