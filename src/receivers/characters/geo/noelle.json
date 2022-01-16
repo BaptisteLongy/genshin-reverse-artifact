@@ -1,0 +1,96 @@
+{
+    "name": "Noelle",
+    "roles": [
+        {
+            "name": "DPS",
+            "best": true,
+            "sets": [
+                {
+                    "id": "archaic-petra"
+                },
+                {
+                    "id": "gladiator-finale"
+                },
+                {
+                    "id": "husk-of-opulent-dreams"
+                },
+                {
+                    "id": "retracing-bolide"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "def-percent"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "geo-dmg-percent"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "def-percent"
+                },
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                },
+                {
+                    "id": "er-percent"
+                }
+            ]
+        },
+        {
+            "name": "Support",
+            "best": false,
+            "sets": [
+                {
+                    "id": "husk-of-opulent-dreams"
+                },
+                {
+                    "id": "maiden-beloved"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "def-percent"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "def-percent"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "def-percent"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "def-percent"
+                },
+                {
+                    "id": "def-flat"
+                },
+                {
+                    "id": "er-percent"
+                }
+            ]
+        }
+    ]
+}
