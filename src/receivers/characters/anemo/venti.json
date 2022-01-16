@@ -1,0 +1,64 @@
+{
+    "name": "Venti",
+    "roles": [
+        {
+            "name": "Off-Field DPS",
+            "best": true,
+            "sets": [
+                {
+                    "id": "viridescent-venerer"
+                },
+                {
+                    "id": "noblesse-oblige"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "em-flat"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "anemo-dmg-percent"
+                },
+                {
+                    "id": "em-flat"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                },
+                {
+                    "id": "em-flat"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "em-flat"
+                },
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                },
+                {
+                    "id": "atk-flat"
+                }
+            ]
+        }
+    ]
+}
