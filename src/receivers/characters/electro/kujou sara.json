@@ -1,0 +1,70 @@
+{
+    "name": "Kujou Sara",
+    "roles": [
+        {
+            "name": "Burst Support",
+            "best": true,
+            "sets": [
+                {
+                    "id": "resolution-of-sojourner"
+                },
+                {
+                    "id": "brave-heart"
+                },
+                {
+                    "id": "gladiator-finale"
+                },
+                {
+                    "id": "shimenawa-reminiscence"
+                },
+                {
+                    "id": "thundering-fury"
+                },
+                {
+                    "id": "emblem-of-severed-fate"
+                },
+                {
+                    "id": "noblesse-oblige"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "er-percent"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "electro-dmg-percent"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                },
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "atk-flat"
+                }
+            ]
+        }
+    ]
+}
