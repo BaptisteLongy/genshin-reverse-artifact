@@ -1,0 +1,117 @@
+{
+    "name": "Yanfei",
+    "roles": [
+        {
+            "name": "DPS",
+            "best": true,
+            "sets": [
+                {
+                    "id": "resolution-of-sojourner"
+                },
+                {
+                    "id": "brave-heart"
+                },
+                {
+                    "id": "gladiator-finale"
+                },
+                {
+                    "id": "shimenawa-reminiscence"
+                },
+                {
+                    "id": "retracing-bolide"
+                },
+                {
+                    "id": "crimson-witch-of-flames"
+                },
+                {
+                    "id": "wanderer-troupe"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "em-flat"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "pyro-dmg-percent"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                },
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "atk-flat"
+                },
+                {
+                    "id": "em-flat"
+                }
+            ]
+        },
+        {
+            "name": "Shield Support",
+            "best": false,
+            "sets": [
+                {
+                    "id": "noblesse-oblige"
+                },
+                {
+                    "id": "tenacity-of-the-millelith"
+                },
+                {
+                    "id": "emblem-of-severed-fate"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "hp-percent"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "hp-percent"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "hp-percent"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "hp-percent"
+                },
+                {
+                    "id": "hp-flat"
+                }
+            ]
+        }
+    ]
+}
