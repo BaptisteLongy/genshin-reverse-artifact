@@ -1,0 +1,64 @@
+{
+    "name": "Kamisato Ayaka",
+    "roles": [
+        {
+            "name": "DPS",
+            "best": true,
+            "sets": [
+                {
+                    "id": "gladiator-finale"
+                },
+                {
+                    "id": "resolution-of-sojourner"
+                },
+                {
+                    "id": "brave-heart"
+                },
+                {
+                    "id": "shimenawa-reminiscence"
+                },
+                {
+                    "id": "blizzard-strayer"
+                },
+                {
+                    "id": "noblesse-oblige"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "atk-percent"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "cryo-dmg-percent"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "atk-flat"
+                },
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                }
+            ]
+        }
+    ]
+}
