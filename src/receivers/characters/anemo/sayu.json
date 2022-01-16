@@ -1,0 +1,58 @@
+{
+    "name": "Sayu",
+    "roles": [
+        {
+            "name": "Support",
+            "best": true,
+            "sets": [
+                {
+                    "id": "viridescent-venerer"
+                },
+                {
+                    "id": "noblesse-oblige"
+                },
+                {
+                    "id": "emblem-of-severed-fate"
+                },
+                {
+                    "id": "maiden-beloved"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "em-flat"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "em-flat"
+                },
+                {
+                    "id": "atk-percent"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "healing-percent"
+                },
+                {
+                    "id": "em-flat"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "em-flat"
+                },
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "er-percent"
+                }
+            ]
+        }
+    ]
+}
