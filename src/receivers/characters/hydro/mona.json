@@ -62,6 +62,127 @@
                     "id": "em-flat"
                 }
             ]
+        },
+        {
+            "name": "Nuke",
+            "best": true,
+            "sets": [
+                {
+                    "id": "resolution-of-sojourner"
+                },
+                {
+                    "id": "brave-heart"
+                },
+                {
+                    "id": "gladiator-finale"
+                },
+                {
+                    "id": "shimenawa-reminiscence"
+                },
+                {
+                    "id": "noblesse-oblige"
+                },
+                {
+                    "id": "heart-of-depth"
+                },
+                {
+                    "id": "wanderer-troupe"
+                },
+                {
+                    "id": "emblem-of-severed-fate"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "em-flat"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "hydro-dmg-percent"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                },
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "em-flat"
+                }
+            ]
+        },
+        {
+            "name": "Freeze Support",
+            "best": true,
+            "sets": [
+                {
+                    "id": "noblesse-oblige"
+                },
+                {
+                    "id": "tenacity-of-the-millelith"
+                },
+                {
+                    "id": "scholar"
+                },
+                {
+                    "id": "the-exile"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "er-percent"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "hydro-dmg-percent"
+                },
+                {
+                    "id": "atk-percent"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "crit-rate-percent"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "er-percent"
+                }
+            ]
         }
     ]
 }
