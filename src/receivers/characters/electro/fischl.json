@@ -1,0 +1,141 @@
+{
+    "name": "Fischl",
+    "roles": [
+        {
+            "name": "DPS",
+            "best": false,
+            "sets": [
+                {
+                    "id": "pale-flame"
+                },
+                {
+                    "id": "bloodstained-chivalry"
+                },
+                {
+                    "id": "thundersoothers"
+                },
+                {
+                    "id": "resolution-of-sojourner"
+                },
+                {
+                    "id": "brave-heart"
+                },
+                {
+                    "id": "gladiator-finale"
+                },
+                {
+                    "id": "shimenawa-reminiscence"
+                },
+                {
+                    "id": "thundering-fury"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "atk-percent"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "physical-dmg-percent"
+                },
+                {
+                    "id": "electro-dmg-percent"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                },
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "em-flat"
+                },
+                {
+                    "id": "atk-flat"
+                }
+            ]
+        },
+        {
+            "name": "Off-Field DPS",
+            "best": true,
+            "sets": [
+                {
+                    "id": "shimenawa-reminiscence"
+                },
+                {
+                    "id": "brave-heart"
+                },
+                {
+                    "id": "gladiator-finale"
+                },
+                {
+                    "id": "resolution-of-sojourner"
+                },
+                {
+                    "id": "thundering-fury"
+                },
+                {
+                    "id": "thundersoothers"
+                },
+                {
+                    "id": "tenacity-of-the-millelith"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "atk-percent"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "electro-dmg-percent"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "crit-dmg-percent"
+                },
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "em-flat"
+                },
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "atk-flat"
+                }
+            ]
+        }
+    ]
+}
