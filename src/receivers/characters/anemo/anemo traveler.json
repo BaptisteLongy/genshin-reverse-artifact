@@ -1,0 +1,141 @@
+{
+    "name": "Anemo Traveler",
+    "roles": [
+        {
+            "name": "Anemo DPS",
+            "best": true,
+            "sets": [
+                {
+                    "id": "viridescent-venerer"
+                },
+                {
+                    "id": "noblesse-oblige"
+                },
+                {
+                    "id": "wanderer-troupe"
+                },
+                {
+                    "id": "resolution-of-sojourner"
+                },
+                {
+                    "id": "brave-heart"
+                },
+                {
+                    "id": "gladiator-finale"
+                },
+                {
+                    "id": "shimenawa-reminiscence"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "em-flat"
+                },
+                {
+                    "id": "atk-percent"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "em-flat"
+                },
+                {
+                    "id": "anemo-dmg-percent"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "em-flat"
+                },
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "em-flat"
+                },
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                },
+                {
+                    "id": "atk-flat"
+                }
+            ]
+        },
+        {
+            "name": "Physical DPS",
+            "best": false,
+            "sets": [
+                {
+                    "id": "resolution-of-sojourner"
+                },
+                {
+                    "id": "brave-heart"
+                },
+                {
+                    "id": "gladiator-finale"
+                },
+                {
+                    "id": "shimenawa-reminiscence"
+                },
+                {
+                    "id": "pale-flame"
+                },
+                {
+                    "id": "bloodstained-chivalry"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "atk-percent"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "physical-dmg-percent"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                },
+                {
+                    "id": "atk-flat"
+                }
+            ]
+        }
+    ]
+}
