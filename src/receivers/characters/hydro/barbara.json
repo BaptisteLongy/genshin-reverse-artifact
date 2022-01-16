@@ -1,0 +1,114 @@
+{
+    "name": "Barbara",
+    "roles": [
+        {
+            "name": "DPS",
+            "best": false,
+            "sets": [
+                {
+                    "id": "resolution-of-sojourner"
+                },
+                {
+                    "id": "brave-heart"
+                },
+                {
+                    "id": "gladiator-finale"
+                },
+                {
+                    "id": "shimenawa-reminiscence"
+                },
+                {
+                    "id": "heart-of-depth"
+                },
+                {
+                    "id": "wanderer-troupe"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "atk-percent"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "hydro-dmg-percent"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                },
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "em-flat"
+                },
+                {
+                    "id": "atk-flat"
+                }
+            ]
+        },
+        {
+            "name": "Support",
+            "best": true,
+            "sets": [
+                {
+                    "id": "ocean-hued-clam"
+                },
+                {
+                    "id": "maiden-beloved"
+                },
+                {
+                    "id": "tenacity-of-the-millelith"
+                },
+                {
+                    "id": "noblesse-oblige"
+                },
+                {
+                    "id": "emblem-of-severed-fate"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "hp-percent"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "hp-percent"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "healing-percent"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "hp-percent"
+                },
+                {
+                    "id": "er-percent"
+                },
+                {
+                    "id": "hp-flat"
+                }
+            ]
+        }
+    ]
+}
