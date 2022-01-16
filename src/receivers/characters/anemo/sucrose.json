@@ -1,0 +1,52 @@
+{
+    "name": "Sucrose",
+    "roles": [
+        {
+            "name": "EM Build",
+            "best": true,
+            "sets": [
+                {
+                    "id": "viridescent-venerer"
+                },
+                {
+                    "id": "instructor"
+                },
+                {
+                    "id": "wanderer-troupe"
+                }
+            ],
+            "sands": [
+                {
+                    "id": "em-flat"
+                }
+            ],
+            "goblet": [
+                {
+                    "id": "em-flat"
+                }
+            ],
+            "circlet": [
+                {
+                    "id": "em-flat"
+                }
+            ],
+            "subStats": [
+                {
+                    "id": "em-flat"
+                },
+                {
+                    "id": "atk-percent"
+                },
+                {
+                    "id": "crit-rate-percent"
+                },
+                {
+                    "id": "crit-dmg-percent"
+                },
+                {
+                    "id": "er-percent"
+                }
+            ]
+        }
+    ]
+}
