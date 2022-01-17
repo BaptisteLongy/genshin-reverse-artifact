@@ -66,17 +66,17 @@ function Receivers({ artifact, minNumberOfStats }) {
                 case "circlet":
                     if (role.circlet.find(element => element.id === artifact.mainStat)) {
                         if (role.sets.find(element => element.id === artifact.set)) {
-                            checkArtifactStatsAndAddToList(artifact, character, role, filteredSetCompatibleCharList)
+                            checkArtifactStatsAndAddToList(artifact, character, role, filteredSetCompatibleCharList, minNumberOfStats)
                         } else {
-                            checkArtifactStatsAndAddToList(artifact, character, role, filteredSetNotCompatibleCharList)
+                            checkArtifactStatsAndAddToList(artifact, character, role, filteredSetNotCompatibleCharList, minNumberOfStats)
                         }
                     }
                     break
                 default:
                     if (role.sets.find(element => element.id === artifact.set)) {
-                        checkArtifactStatsAndAddToList(artifact, character, role, filteredSetCompatibleCharList)
+                        checkArtifactStatsAndAddToList(artifact, character, role, filteredSetCompatibleCharList, minNumberOfStats)
                     } else {
-                        checkArtifactStatsAndAddToList(artifact, character, role, filteredSetNotCompatibleCharList)
+                        checkArtifactStatsAndAddToList(artifact, character, role, filteredSetNotCompatibleCharList, minNumberOfStats)
                     }
             }
         })
