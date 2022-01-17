@@ -11,9 +11,6 @@ WORKDIR /usr/genshin-reverse-artifact
 COPY package*.json ./
 RUN npm install --production
 
-ARG SHOPPING_LIST_ENDPOINT
-ENV NEXT_PUBLIC_SHOPPING_LIST_BACK_END_ENDPOINT=$SHOPPING_LIST_ENDPOINT
-
 # Bundle APP files
 COPY ./ ./
 RUN npm run build
