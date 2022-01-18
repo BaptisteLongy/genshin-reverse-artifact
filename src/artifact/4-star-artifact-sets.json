@@ -1,0 +1,72 @@
+[
+    {
+        "value": "prayers-for-wisdom",
+        "name": "Prayers for Wisdom",
+        "img": "https://www.gensh.in/fileadmin/Database/Artifacts/Old/Prayers_Tiara_of_Thunder.png"
+    },
+    {
+        "value": "prayers-to-springtime",
+        "name": "Prayers to Springtime",
+        "img": "https://www.gensh.in/fileadmin/Database/Artifacts/Old/Prayers_Tiara_of_Frost.png"
+    },
+    {
+        "value": "prayers-for-illumination",
+        "name": "Prayers for Illumination",
+        "img": "https://www.gensh.in/fileadmin/Database/Artifacts/Old/Prayers_Tiara_of_Flame.png"
+    },
+    {
+        "value": "prayers-for-destiny",
+        "name": "Prayers for Destiny",
+        "img": "https://www.gensh.in/fileadmin/Database/Artifacts/Old/Prayers_Tiara_of_Torrents.png"
+    },
+    {
+        "value": "instructor",
+        "name": "Instructor",
+        "img": "https://www.gensh.in/fileadmin/Database/Artifacts/Old/Artifact_Instructor_4.png"
+    },
+    {
+        "value": "berserker",
+        "name": "Berserker",
+        "img": "https://www.gensh.in/fileadmin/Database/Artifacts/Old/berserker01_BerserkersRose.png"
+    },
+    {
+        "value": "the-exile",
+        "name": "The Exile",
+        "img": "https://www.gensh.in/fileadmin/Database/Artifacts/Old/Artifact_Exile_4.png"
+    },
+    {
+        "value": "resolution-of-sojourner",
+        "name": "Resolution of Sojourner",
+        "img": "https://www.gensh.in/fileadmin/Database/Artifacts/Old/Artifact_Resolution_of_Sojourner_4.png"
+    },
+    {
+        "value": "martial-artist",
+        "name": "Martial Artist",
+        "img": "https://www.gensh.in/fileadmin/Database/Artifacts/Old/Artifact_Martial_Artist_4.png"
+    },
+    {
+        "value": "defender-will",
+        "name": "Defender's Will",
+        "img": "https://www.gensh.in/fileadmin/Database/Artifacts/Old/Artifact_Defenders_Will_4.png"
+    },
+    {
+        "value": "tiny-miracle",
+        "name": "Tiny Miracle",
+        "img": "https://www.gensh.in/fileadmin/Database/Artifacts/Old/Artifact_Tiny_Miracle_4.png"
+    },
+    {
+        "value": "brave-heart",
+        "name": "Brave Heart",
+        "img": "https://www.gensh.in/fileadmin/Database/Artifacts/Old/Artifact_Brave_Heart_4.png"
+    },
+    {
+        "value": "gambler",
+        "name": "Gambler",
+        "img": "https://www.gensh.in/fileadmin/Database/Artifacts/Old/Artifact_Gambler_4.png"
+    },
+    {
+        "value": "scholar",
+        "name": "Scholar",
+        "img": "https://www.gensh.in/fileadmin/Database/Artifacts/Old/Artifact_Scholar_4.png"
+    }
+]

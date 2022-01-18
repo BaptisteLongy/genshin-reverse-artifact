@@ -1,0 +1,102 @@
+[
+    {
+        "value": "gladiator-finale",
+        "name": "Gladiator's Finale",
+        "img": "https://www.gensh.in/fileadmin/Database/Artifacts/Old/Artifact_Gladiator_4.png"
+    },
+    {
+        "value": "wanderer-troupe",
+        "name": "Wanderer's Troupe",
+        "img": "https://www.gensh.in/fileadmin/Database/Artifacts/Old/Artifact_Wanderers_Troupe_4.png"
+    },
+    {
+        "value": "thundersoother",
+        "name": "Thundersoother",
+        "img": "https://www.gensh.in/fileadmin/Database/Artifacts/Old/Artifact_Thundersoother_4.png"
+    },
+    {
+        "value": "thundering-fury",
+        "name": "Thundering Fury",
+        "img": "https://www.gensh.in/fileadmin/Database/Artifacts/Old/Artifact_Thundering_Fury_4.png"
+    },
+    {
+        "value": "maiden-beloved",
+        "name": "Maiden Beloved",
+        "img": "https://www.gensh.in/fileadmin/Database/Artifacts/Old/Artifact_Maiden_Beloved_4.png"
+    },
+    {
+        "value": "viridescent-venerer",
+        "name": "Viridescent Venerer",
+        "img": "https://www.gensh.in/fileadmin/Database/Artifacts/Old/Artifact_Viridescent_4.png"
+    },
+    {
+        "value": "crimson-witch-of-flames",
+        "name": "Crimson Witch of Flames",
+        "img": "https://www.gensh.in/fileadmin/Database/Artifacts/Old/Artifact_Crimson_Witch_4.png"
+    },
+    {
+        "value": "lavawalker",
+        "name": "Lavawalker",
+        "img": "https://www.gensh.in/fileadmin/Database/Artifacts/Old/Artifact_Lavawalker_4.png"
+    },
+    {
+        "value": "noblesse-oblige",
+        "name": "Noblesse Oblige",
+        "img": "https://www.gensh.in/fileadmin/Database/Artifacts/Old/Artifact_Noblesse_4.png"
+    },
+    {
+        "value": "bloodstained-chivalry",
+        "name": "Bloodstained Chivalry",
+        "img": "https://www.gensh.in/fileadmin/Database/Artifacts/Old/bloodstainedChivalry01_BloodstainedFlowerOfIron.png"
+    },
+    {
+        "value": "archaic-petra",
+        "name": "Archaic Petra",
+        "img": "https://www.gensh.in/fileadmin/Database/Artifacts/Old/archaicPetra01_FlowerOfCrevicedCliff.png"
+    },
+    {
+        "value": "retracing-bolide",
+        "name": "Retracing Bolide",
+        "img": "https://www.gensh.in/fileadmin/Database/Artifacts/Old/Artifact_Retracing_Bolide_4.png"
+    },
+    {
+        "value": "blizzard-strayer",
+        "name": "Blizzard Strayer",
+        "img": "https://www.gensh.in/fileadmin/Database/Artifacts/Old/blizzardStrayer01_SnowsweptMemory.png"
+    },
+    {
+        "value": "heart-of-depth",
+        "name": "Heart of Depth",
+        "img": "https://www.gensh.in/fileadmin/Database/Artifacts/Old/Artifact_Heart_Of_Depth_4.png"
+    },
+    {
+        "value": "tenacity-of-the-millelith",
+        "name": "Tenacity of the Millelith",
+        "img": "https://www.gensh.in/fileadmin/Database/Artifacts/tenacityOfTheMillelith_circlet_generalsAncientHelm.png"
+    },
+    {
+        "value": "pale-flame",
+        "name": "Pale Flame",
+        "img": "https://www.gensh.in/fileadmin/Database/Artifacts/paleFlame_circlet_mockingMask.png"
+    },
+    {
+        "value": "shimenawa-reminiscence",
+        "name": "Shimenawa's Reminiscence",
+        "img": "https://www.gensh.in/fileadmin/Database/Artifacts/shimenawasReminiscence_circlet_capriciousVisage.png"
+    },
+    {
+        "value": "emblem-of-severed-fate",
+        "name": "Emblem of Severed Fate",
+        "img": "https://www.gensh.in/fileadmin/Database/Artifacts/emblemOfSeveredFate_circlet_ornateKabuto.png"
+    },
+    {
+        "value": "husk-of-opulent-dreams",
+        "name": "Husk of Opulent Dreams",
+        "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Item_Bloom_Times.png"
+    },
+    {
+        "value": "ocean-hued-clam",
+        "name": "Ocean-Hued Clam",
+        "img": "https://www.gensh.in/fileadmin/Database/Artifacts/oceanHuedClam_flower_seaDyedBlossom.png"
+    }
+]
