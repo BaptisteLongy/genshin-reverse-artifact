@@ -3,7 +3,7 @@
     "roles": [
         {
             "name": "Cryo DPS",
-            "best": true,
+            "best": false,
             "sets": [
                 {
                     "id": "noblesse-oblige"
