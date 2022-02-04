@@ -13,9 +13,10 @@ function MainStatSelect({ potentialStats, artifactMainStatChangeCallback, disabl
     };
 
     return (
-        <FormControl fullWidth={true} disabled={disabled}>
-            <InputLabel>Main Stat</InputLabel>
+        <FormControl fullWidth={true} disabled={disabled} sx={{ height: '100%' }}>
+            <InputLabel sx={{ top: 'calc(45% - 1.4375rem)' }}>Main Stat</InputLabel>
             <Select
+                sx={{ height: '100%' }}
                 value={artifactMainStat}
                 label="Main Stat"
                 onChange={handleChange}

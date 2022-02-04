@@ -1,5 +1,6 @@
 import * as React from 'react';
 import InputLabel from '@mui/material/InputLabel';
+import Box from '@mui/material/Box';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
@@ -27,23 +28,27 @@ function ArtifactSet({ artifactSet, onSetChangeCallback }) {
                 <ListSubheader>5 ☆</ListSubheader>
                 {fiveStarArtifactSetList.map(artifactSet => {
                     return <MenuItem value={artifactSet.value} key={artifactSet.value}>
-                        <img
-                            src={`${artifactSet.img}`}
-                            alt={artifactSet.name}
-                            width="40"
-                        />
-                        {artifactSet.name}
+                        <Box sx={{ display: 'flex', alignItems: 'center' }}>
+                            <img
+                                src={`${artifactSet.img}`}
+                                alt={artifactSet.name}
+                                width="40"
+                            />
+                            {artifactSet.name}
+                        </Box>
                     </MenuItem>
                 })}
                 <ListSubheader>4 ☆</ListSubheader>
                 {fourStarArtifactSetList.map(artifactSet => {
                     return <MenuItem value={artifactSet.value} key={artifactSet.value}>
-                        <img
-                            src={`${artifactSet.img}`}
-                            alt={artifactSet.name}
-                            width="40"
-                        />
-                        {artifactSet.name}
+                        <Box sx={{ display: 'flex', alignItems: 'center' }}>
+                            <img
+                                src={`${artifactSet.img}`}
+                                alt={artifactSet.name}
+                                width="40"
+                            />
+                            {artifactSet.name}
+                        </Box>
                     </MenuItem>
                 })}
             </Select>

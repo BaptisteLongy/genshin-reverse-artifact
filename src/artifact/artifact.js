@@ -9,6 +9,7 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
+import Box from '@mui/material/Box';
 
 function Artifact({ updateArtifactCallback }) {
     const [artifactSet, setArtifactSet] = React.useState('');
@@ -31,7 +32,7 @@ function Artifact({ updateArtifactCallback }) {
             subStat3: artifactThirdSubStat,
             subStat4: artifactFourthSubStat
         },
-        minNumberOfStat)
+            minNumberOfStat)
     }
 
     const resetArtifact = () => {
@@ -51,7 +52,7 @@ function Artifact({ updateArtifactCallback }) {
             subStat3: "",
             subStat4: ""
         },
-        0)
+            0)
     }
 
     const changeArtifactType = (newValue) => {
@@ -90,17 +91,13 @@ function Artifact({ updateArtifactCallback }) {
     return (
         <div>
             <h2>Describe your Artifact</h2>
-            <Grid container direction="row" spacing={2}>
-                <Grid item xs={4}>
-                    <ArtifactSet artifactSet={artifactSet} onSetChangeCallback={setArtifactSet} />
-                </Grid>
-                <Grid item xs={4}>
-                    <ArtifactType artifactType={artifactType} artifactTypeChangeCallback={changeArtifactType} />
-                </Grid>
-                <Grid item xs={4}>
-                    <ArtifactMainStat artifactType={artifactType} artifactMainStatChangeCallback={changeMainStat} />
-                </Grid>
-            </Grid>
+
+            <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 1 }}>
+                <ArtifactSet artifactSet={artifactSet} onSetChangeCallback={setArtifactSet} />
+                <ArtifactType artifactType={artifactType} artifactTypeChangeCallback={changeArtifactType} sx={{ alignSelf: 'stretch' }} />
+                <ArtifactMainStat artifactType={artifactType} artifactMainStatChangeCallback={changeMainStat} />
+            </Box>
+
             <Grid item style={{ paddingTop: 20 }}>
                 <ArtifactSubStats
                     artifactMainStat={artifactMainStat}

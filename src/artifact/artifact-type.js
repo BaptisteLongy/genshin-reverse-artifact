@@ -4,7 +4,7 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 
-function ArtifactType({artifactType, artifactTypeChangeCallback}) {
+function ArtifactType({ artifactType, artifactTypeChangeCallback }) {
 
     const handleChange = (event) => {
         artifactTypeChangeCallback(event.target.value)
@@ -12,8 +12,9 @@ function ArtifactType({artifactType, artifactTypeChangeCallback}) {
 
     return (
         <FormControl fullWidth={true}>
-            <InputLabel>Type</InputLabel>
+            <InputLabel sx={{ top: 'calc(45% - 1.4375rem)' }}>Type</InputLabel>
             <Select
+                sx={{ height: '100%' }}
                 value={artifactType}
                 label="Type"
                 onChange={handleChange}
