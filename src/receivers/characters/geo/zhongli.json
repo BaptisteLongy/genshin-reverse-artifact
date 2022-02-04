@@ -104,21 +104,9 @@
                 }
             ]
         },        {
-            "name": "Burst / Nuke",
+            "name": "Burst Support",
             "best": true,
             "sets": [
-                {
-                    "id": "resolution-of-sojourner"
-                },
-                {
-                    "id": "brave-heart"
-                },
-                {
-                    "id": "gladiator-finale"
-                },
-                {
-                    "id": "shimenawa-reminiscence"
-                },
                 {
                     "id": "archaic-petra"
                 },
