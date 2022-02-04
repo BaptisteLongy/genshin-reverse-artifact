@@ -21,9 +21,6 @@
                 },
                 {
                     "id": "er-percent"
-                },
-                {
-                    "id": "atk-percent"
                 }
             ],
             "goblet": [
@@ -37,9 +34,6 @@
             "circlet": [
                 {
                     "id": "healing-percent"
-                },
-                {
-                    "id": "atk-percent"
                 }
             ],
             "subStats": [
